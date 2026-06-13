@@ -4,7 +4,7 @@ export const businessInfo = {
   name: "Nikhitha PVC Ceiling and Wall Panels Vijayawada",
   shortName: "Nikhitha PVC",
   category: "Ceiling Supplier",
-  phone: "086391 21227",
+  phone: "+91 86391 21227",
   phoneFormatted: "+918639121227",
   whatsappUrl: "https://wa.me/918639121227",
   smsUrl: "sms:+918639121227",
