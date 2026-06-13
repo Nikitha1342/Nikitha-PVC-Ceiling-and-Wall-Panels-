@@ -1,4 +1,5 @@
-import { Sparkles, MessageSquare, Phone } from "lucide-react";
+import { Sparkles, Phone } from "lucide-react";
+import WhatsAppIcon from "./components/WhatsAppIcon";
 import Header from "./components/Header";
 import HeroSlider from "./components/HeroSlider";
 import Services from "./components/Services";
@@ -77,7 +78,7 @@ export default function App() {
           id="floating-whatsapp-trigger"
           aria-label="Launch WhatsApp Direct"
         >
-          <MessageSquare className="w-4 h-4 sm:w-5 h-5 shrink-0 text-white animate-bounce" />
+          <WhatsAppIcon className="w-4 h-4 sm:w-5 h-5 shrink-0 text-white animate-bounce" />
           <span>Chat on WhatsApp</span>
         </a>
       </div>

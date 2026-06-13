@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Phone, MessageSquare, Menu, X, Sparkles, UserCheck } from "lucide-react";
+import { Phone, Menu, X, Sparkles, UserCheck } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
 import { motion, AnimatePresence } from "motion/react";
 import { businessInfo } from "../data";
 
@@ -114,7 +115,7 @@ export default function Header() {
               referrerPolicy="no-referrer"
               id="cta-header-whatsapp"
             >
-              <MessageSquare className="w-3.5 h-3.5 text-white animate-bounce" />
+              <WhatsAppIcon className="w-3.5 h-3.5 text-white animate-bounce" />
               <span>Chat WhatsApp</span>
             </a>
           </div>
@@ -129,7 +130,7 @@ export default function Header() {
               referrerPolicy="no-referrer"
               id="cta-header-whatsapp-mobile"
             >
-              <MessageSquare className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4" />
             </a>
 
             <button
@@ -200,7 +201,7 @@ export default function Header() {
                   className="flex items-center justify-center gap-3 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-sans text-sm font-semibold tracking-wide py-3 px-4 rounded-xl transition-all"
                   referrerPolicy="no-referrer"
                 >
-                  <MessageSquare className="w-4 h-4" />
+                  <WhatsAppIcon className="w-4 h-4" />
                   <span>Chat on WhatsApp</span>
                 </a>
                 <div className="text-center">

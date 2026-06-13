@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Maximize2, Layout, ListFilter, Layers, SquareDot, ArrowRight, X, Phone, MessageSquare, Check } from "lucide-react";
+import { Maximize2, Layout, ListFilter, Layers, SquareDot, ArrowRight, X, Phone, Check } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
 import { motion, AnimatePresence } from "motion/react";
 import { services, businessInfo } from "../data";
 import { Service } from "../types";
@@ -198,7 +199,7 @@ export default function Services() {
                     referrerPolicy="no-referrer"
                     id="service-modal-quote-whatsapp"
                   >
-                    <MessageSquare className="w-4 h-4 text-white" />
+                    <WhatsAppIcon className="w-4 h-4 text-white" />
                     <span>WhatsApp Quote</span>
                   </a>
 

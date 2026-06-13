@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { ChevronLeft, ChevronRight, Phone, MessageSquare, ShieldCheck, Heart } from "lucide-react";
+import { ChevronLeft, ChevronRight, Phone, ShieldCheck, Heart } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
 import { motion, AnimatePresence } from "motion/react";
 import { slides, businessInfo } from "../data";
 
@@ -146,7 +147,7 @@ export default function HeroSlider() {
                 referrerPolicy="no-referrer"
                 id="hero-cta-whatsapp"
               >
-                <MessageSquare className="w-4 h-4 text-white" />
+                <WhatsAppIcon className="w-4 h-4 text-white" />
                 <span>Inquire and Get Price List</span>
               </a>
             </div>

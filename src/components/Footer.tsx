@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { HelpCircle, ChevronDown, Sparkles, MessageSquare, Phone, MapPin, Heart } from "lucide-react";
+import { HelpCircle, ChevronDown, Sparkles, Phone, MapPin, Heart } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
 import { motion, AnimatePresence } from "motion/react";
 import { faqItems, businessInfo } from "../data";
 
@@ -119,7 +120,7 @@ export default function Footer() {
               referrerPolicy="no-referrer"
               id="footer-whatsapp-connect"
             >
-              <MessageSquare className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4" />
               <span>WhatsApp Direct Line</span>
             </a>
             <a
